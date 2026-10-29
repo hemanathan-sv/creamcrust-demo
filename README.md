@@ -6,6 +6,8 @@ A small same-origin authentication app built with Express, TypeScript, SQLite, a
 
 Requires Node.js 22 or newer. The SQLite database is created at `./data/auth.sqlite` on first start.
 
+> This app requires a Node.js host with persistent disk. GitHub Pages can serve the static files, but it cannot run the authentication API or SQLite database by itself.
+
 ```sh
 npm install
 npm run dev
